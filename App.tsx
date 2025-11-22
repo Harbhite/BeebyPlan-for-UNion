@@ -32,13 +32,13 @@ const Marquee = () => {
         <span>Victoria Ascerta</span> <Star size={10} fill="currentColor" />
         <span>First and Best</span> <Star size={10} fill="currentColor" />
         <span>The Greatest Uites</span> <Star size={10} fill="currentColor" />
-        <span>Intellectual Capital</span> <Star size={10} fill="currentColor" />
+        <span>Father of Intellectual Unionism</span> <Star size={10} fill="currentColor" />
         <span>Est. 1948</span> <Star size={10} fill="currentColor" />
         <span>Aluta Continua</span> <Star size={10} fill="currentColor" />
         <span>Victoria Ascerta</span> <Star size={10} fill="currentColor" />
         <span>First and Best</span> <Star size={10} fill="currentColor" />
         <span>The Greatest Uites</span> <Star size={10} fill="currentColor" />
-        <span>Intellectual Capital</span> <Star size={10} fill="currentColor" />
+        <span>Father of Intellectual Unionism</span> <Star size={10} fill="currentColor" />
         <span>Est. 1948</span> <Star size={10} fill="currentColor" />
         <span>Aluta Continua</span> <Star size={10} fill="currentColor" />
         <span>Victoria Ascerta</span> <Star size={10} fill="currentColor" />
@@ -196,7 +196,7 @@ const App: React.FC = () => {
                 onClick={() => setView('home')}
             >
                 <img src="/uisu-logo.jpg.png" alt="Logo" className="w-8 h-8 object-contain" />
-                <span className="font-serif font-bold text-xl tracking-tight">University of Ibadan Students' Union</span>
+                <span className="font-serif font-bold text-xl tracking-tight">UI'SU</span>
             </motion.div>
 
             {/* Right: Action */}
