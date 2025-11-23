@@ -1,4 +1,3 @@
-
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
@@ -90,7 +89,7 @@ const LeaderCard = ({ name, role, delay }: { name: string, role: string, delay: 
     >
       <motion.div 
         whileHover={{ scale: 1.1, rotate: 5 }}
-        className="w-16 h-16 rounded-full bg-slate-50 mb-4 flex items-center justify-center text-2xl font-serif text-nobel-gold font-bold border border-slate-100 group-hover:border-nobel-gold transition-colors"
+        className="w-16 h-16 rounded-full bg-slate-50 mb-4 flex items-center justify-center text-2xl font-serif text-nobel-gold font-bold border border-slate-100 group-hover:border-nobel-gold transition-all duration-300"
       >
         {name.charAt(0)}
       </motion.div>
@@ -294,7 +293,7 @@ const App: React.FC = () => {
                 transition={{ delay: 0.4 }}
                 className="text-xl md:text-2xl text-slate-600 max-w-2xl mx-auto mb-16 leading-relaxed"
             >
-                Platform packed with <span className="bg-slate-100 px-2 rounded text-ui-blue font-medium">History</span> & <span className="bg-slate-100 px-2 rounded text-ui-blue font-medium">Intellectualism</span>. Preserving the Aluta spirit since 1948.
+                Platform packed with <span className="bg-slate-100 px-2 rounded text-ui-blue font-medium">History</span> & <span className="bg-slate-100 px-2 rounded text-ui-blue font-medium">Intellectual Life</span>.
             </motion.p>
 
             {/* 4. INTERACTIVE TILTED GALLERY (Navigation) */}
@@ -415,7 +414,7 @@ const App: React.FC = () => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setView('history')} 
-                        className="shrink-0 px-6 py-3 bg-slate-50 border border-slate-300 rounded-full text-sm font-bold uppercase tracking-wider hover:bg-ui-blue hover:text-white transition-all shadow-sm"
+                        className="shrink-0 px-6 py-3 bg-slate-50 border border-slate-300 rounded-full text-sm font-bold uppercase tracking-wider hover:bg-ui-blue hover:text-white transition-all shadow"
                     >
                         View All Leaders
                     </motion.button>
@@ -495,7 +494,7 @@ const App: React.FC = () => {
                 <div className="md:col-span-7 flex flex-col justify-center">
                     <RevealHeader className="font-serif text-5xl mb-8 text-ui-blue">Campus Culture</RevealHeader>
                     <p className="text-xl text-slate-600 mb-8 leading-relaxed font-light">
-                        Life as a Uite is unique. From the gyration at the SUB to the quiet study sessions at Kenneth Dike Library. The halls—Mellamby, Tedder, Kuti, Sultan Bello, Independence, Zik, Queens, Idia, Awo—are nations with their own rich traditions.
+                        Life as a Uite is unique. From the gyration at the SUB to the quiet study sessions at Kenneth Dike Library. The halls—Mellamby, Tedder, Kuti, Sultan Bello, Independence, Zik, and more—form the backbone of campus life.
                     </p>
                     
                     <div className="p-8 bg-white border-l-4 border-nobel-gold rounded-r-xl shadow-sm">
